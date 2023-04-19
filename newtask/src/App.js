@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import SideNavBar from './Components/SideNavBar';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>This is the new project of mine</h1>
+      <SideNavBar />
+
     </div>
   );
 }
